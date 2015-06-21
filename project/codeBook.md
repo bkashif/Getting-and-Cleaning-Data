@@ -19,15 +19,15 @@ The run_analysis.R script performs the following steps to clean the data:
 
 1. Merge the training and the test sets to create one data set:
 After setting the source directory for the files, read into tables the data located in
-	# Read in the data from files
+	Read in the data from files
 	features.txt		#561*2
 	activity_labels.txt	#6*2
 	subject_train.txt	#7352*1
 	x_train.txt		#7352*561
 	y_train.txt		#7352*1
-	# Create the final training set by merging yTrain, subjectTrain, and xTrain
-	# Assign column names to the data imported above
-	# Read in the test data
+	Create the final training set by merging yTrain, subjectTrain, and xTrain
+	Assign column names to the data imported above
+	Read in the test data
 	subject_test.txt	#2947*1
 	x_test.txt		#2947*561
 	y_test.txt		#2947*1
